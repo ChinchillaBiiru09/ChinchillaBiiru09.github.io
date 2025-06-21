@@ -12,6 +12,14 @@ section {
     background-color: #ffeda7;
 }
 
+.gallery-img {
+    width: 100%;
+}
+
+#gallery .row > * {
+    padding: 0;
+}
+
 footer {
     background-color: #ff8400;
 }

@@ -9,7 +9,10 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
       <!-- Bootstrap Icons -->
-       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+
+      <!-- AOS -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
       <!-- My CSS -->
       <link rel="stylesheet" href="style.css" />
@@ -27,16 +30,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                     <a class="nav-link home" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#about">About</a>
+                     <a class="nav-link about" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#projects">Projects</a>
+                     <a class="nav-link project" href="#projects">Projects</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#contact">Contact</a>
+                     <a class="nav-link contact" href="#contact">Contact</a>
                   </li>
                </ul>
             </div>
@@ -48,7 +51,8 @@
       <section class="jumbotron text-center">
          <img src="img/myimg.png" alt="Nur Khafidah" width="200" class="rounded-circle img-thumbnail" />
          <h1 class="display-4">Nur Khafidah</h1>
-         <p class="lead">Back End Developer | Python Developer | Software Engineer</p>
+         <!-- <p class="lead">Web Developer | Python Programmer | Administrator</p> -->
+         <p class="lead">Web Developer | Python Programmer | AI Engineer | Administrator</p>
          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
                fill="#ffff"
@@ -64,15 +68,23 @@
          <div class="container">
             <div class="row text-center mb-3">
                <div class="col">
+                  <!-- <h2>Tentang Saya</h2> -->
                   <h2>About Me</h2>
                </div>
             </div>
             <div class="row justify-content-center fs-5 text-center">
-               <div class="col-md-4">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cupiditate voluptate quam? Doloremque molestias, sunt officia corrupti vel temporibus nisi.</p>
+               <div class="col-md-4" data-aos="fade-right">
+                  <p>
+                     Halo! Saya Nur Khafidah dari Tegal, Jawa Tengah. Saya lulusan Sarjana Terapan Teknik Informatika dari Politeknik Harapan Bersama Tegal, lulus pada tahun 2024. Saya memiliki pengalaman sebagai Back End Developer, dimulai
+                     dari program magang di PT Central Artificial Intelligence melalui program Magang Bersertifikat Kampu Merdeka (MBKM) di tahun 2022, hingga bekerja secara profesional di JD Teknologi di tahun 2023. Selama lebih dari 1
+                     tahun saya terlibat dalam pengembangan sistem web menggunakan berbagai framework serta sistem manajemen basis data.
+                  </p>
                </div>
-               <div class="col-md-4">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolorem temporibus quasi libero natus, id error itaque dolor pariatur delectus ullam expedita accusamus, nulla asperiores?</p>
+               <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
+                  <p>
+                     Saya memiliki minat kuat di bidang pemrograman dan manajemen data, dengan perhatian tinggi terhadap detail. Aktivitas favorit saya mencakup belajar hal baru, menyelesaikan kuis, serta bermain game strategi — karena saya
+                     menyukai tantangan yang melibatkan logika dan pemikiran mendalam. <br />Saya adalah pribadi yang antusias, cepat belajar, dan memiliki motivasi tinggi untuk terus berkembang di dunia profesional.
+                  </p>
                </div>
             </div>
          </div>
@@ -91,47 +103,52 @@
          <div class="container">
             <div class="row text-center mb-3">
                <div class="col">
+                  <!-- <h2>Projects</h2> -->
                   <h2>Projects</h2>
                </div>
             </div>
             <div class="row justify-content-center">
-               <div class="col-md-4 mb-3">
+               <div class="col-md-4 mb-3" data-aos="fade-in" data-aos-duration="500">
                   <div class="card">
-                     <img src="img/projects/pj-01.png" class="card-img-top" alt="Projects 01" />
+                     <img src="img/projects/pj-01.png" class="card-img-top" alt="Projects 01" height="200" />
                      <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Website Landing Page untuk kedai kopi. (Proyek Pribadi)</p>
+                        <div class="d-grid justify-content-end">
+                           <a href="https://chinchillabiiru09.github.io/Website-CoffeeShop/" class="btn btn-outline-primary" target="_blank">Buka</a>
+                        </div>
                      </div>
                   </div>
                </div>
-               <div class="col-md-4 mb-3">
+               <div class="col-md-4 mb-3" data-aos="fade-in" data-aos-duration="500" data-aos-delay="100">
                   <div class="card">
-                     <img src="img/projects/pj-01.png" class="card-img-top" alt="Projects 01" />
+                     <img src="img/projects/pj-02.png" class="card-img-top" alt="Projects 02" height="200" />
                      <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Aplikasi web untuk pembuatan undangan digital. (Proyek Skripsi)</p>
+                        <div class="d-grid justify-content-end">
+                           <a href="https://github.com/ChinchillaBiiru09/LASTPROJECT-ClientSide.git" class="btn btn-outline-primary" target="_blank">Buka</a>
+                        </div>
                      </div>
                   </div>
                </div>
-               <div class="col-md-4 mb-3">
+               <div class="col-md-4 mb-3" data-aos="fade-in" data-aos-duration="500" data-aos-delay="200">
                   <div class="card">
-                     <img src="img/projects/pj-01.png" class="card-img-top" alt="Projects 01" />
+                     <img src="img/projects/pj-03.png" class="card-img-top" alt="Projects 03" height="200" />
                      <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Mobile App penyimpanan data dengan sistem keamanan Face Recognition.</p>
+                        <div class="d-grid justify-content-end">
+                           <a href="https://github.com/ChinchillaBiiru09/Android-ODriveApp.git" class="btn btn-outline-primary" target="_blank">Buka</a>
+                        </div>
                      </div>
                   </div>
                </div>
-               <div class="col-md-4 mb-3">
+               <div class="col-md-4 mb-3" data-aos="fade-in" data-aos-duration="500" data-aos-delay="300">
                   <div class="card">
-                     <img src="img/projects/pj-01.png" class="card-img-top" alt="Projects 01" />
+                     <img src="img/projects/pj-04.png" class="card-img-top" alt="Projects 04" height="200" />
                      <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-4 mb-3">
-                  <div class="card">
-                     <img src="img/projects/pj-01.png" class="card-img-top" alt="Projects 01" />
-                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Aplikasi web untuk mendeteksi kecurangan ujian melalui analisis gerakan wajah, mata, dan alis.</p>
+                        <div class="d-grid justify-content-end">
+                           <a href="https://github.com/ChinchillaBiiru09/Website_Fraud_Catcher.git" class="btn btn-outline-primary" target="_blank">Buka</a>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -147,30 +164,83 @@
       </section>
       <!-- Project Section - end -->
 
+      <!-- Gallery Section - start -->
+      <!-- <section class="gallery" id="gallery">
+         <div class="container">
+            <div class="row text-center mb-3">
+               <div class="col">
+                  <h2>Gallery</h2>
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-md-3">
+                  <a href="#"><img src="img/myimg.png" alt="Gambar 1" class="img-fluid gallery-img" /></a>
+               </div>
+               <div class="col-md-3">
+                  <a href="#"><img src="img/myimg.png" alt="Gambar 2" class="img-fluid gallery-img" /></a>
+               </div>
+               <div class="col-md-3">
+                  <a href="#"><img src="img/myimg.png" alt="Gambar 3" class="img-fluid gallery-img" /></a>
+               </div>
+               <div class="col-md-3">
+                  <a href="#"><img src="img/myimg.png" alt="Gambar 4" class="img-fluid gallery-img" /></a>
+               </div>
+               <div class="col-md-3">
+                  <a href="#"><img src="img/myimg.png" alt="Gambar 5" class="img-fluid gallery-img" /></a>
+               </div>
+               <div class="col-md-3">
+                  <a href="#"><img src="img/myimg.png" alt="Gambar 6" class="img-fluid gallery-img" /></a>
+               </div>
+               <div class="col-md-3">
+                  <a href="#"><img src="img/myimg.png" alt="Gambar 7" class="img-fluid gallery-img" /></a>
+               </div>
+               <div class="col-md-3">
+                  <a href="#"><img src="img/myimg.png" alt="Gambar 8" class="img-fluid gallery-img" /></a>
+               </div>
+               <div class="col-md-3">
+                  <a href="#"><img src="img/myimg.png" alt="Gambar 9" class="img-fluid gallery-img" /></a>
+               </div>
+               <div class="col-md-3">
+                  <a href="#"><img src="img/myimg.png" alt="Gambar 10" class="img-fluid gallery-img" /></a>
+               </div>
+            </div>
+         </div>
+      </section> -->
+      <!-- Gallery Section - end -->
+
       <!-- Contact Section - start -->
       <section class="contact" id="contact">
          <div class="container">
             <div class="row text-center mb-3">
                <div class="col">
+                  <!-- <h2>Kontak Saya</h2> -->
                   <h2>Contact Me</h2>
                </div>
             </div>
             <div class="row justify-content-center">
                <div class="col-md-6">
-                  <form>
+                  <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
+                     <strong>Berhasil!</strong> Pesan anda sudah terkirim.
+                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+                  <form name="contact-form-gsheet">
                      <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" aria-describedby="name" />
+                        <label for="name" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="name" name="name" aria-describedby="name" />
                      </div>
                      <div class="mb-3">
-                        <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="email" />
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" aria-describedby="email" />
                      </div>
                      <div class="mb-3">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
+                        <label for="message" class="form-label">Pesan</label>
+                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                      </div>
-                     <button type="submit" class="btn btn-primary">Send</button>
+                     <button type="submit" class="btn btn-warning btn-send">Kirim</button>
+                     <button class="btn btn-warning btn-load d-none" type="button" disabled>
+                        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                        Memuat...
+                     </button>
                   </form>
                </div>
             </div>
@@ -193,5 +263,56 @@
 
       <!-- Optional JavaScript; Bootstrap Bundle with Popper -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      <!-- AOS -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         const galleryImg = document.querySelectorAll(".gallery-img");
+
+         galleryImg.forEach((img, i) => {
+            img.dataset.aos = "zoom-in-up";
+            img.dataset.aosDelay = i * 100;
+         });
+         AOS.init({
+            once: true,
+            duration: 800, // values from 0 to 3000, with step 50ms
+         });
+      </script>
+
+      <!-- GSAP -->
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+      <!-- Navbar -->
+      <script></script>
+
+      <!-- Contact Form SpreedSheet -->
+      <script>
+         const scriptURL = "https://script.google.com/macros/s/AKfycbzVWQA0MVzvvziY329WjRP8qGVkIi92xGR392uU-sy_qZbMTOEQMb5HT6qBzWS5dqUD3g/exec";
+         const form = document.forms["contact-form-gsheet"];
+         const btnSend = document.querySelector(".btn-send");
+         const btnLoad = document.querySelector(".btn-load");
+         const myAlert = document.querySelector(".alert");
+
+         form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            // clicked submit
+            // show load button, hide send button
+            btnLoad.classList.toggle("d-none");
+            btnSend.classList.toggle("d-none");
+            fetch(scriptURL, { method: "POST", body: new FormData(form) })
+               .then((response) => {
+                  // clicked submit
+                  // show send button, hide load button
+                  btnLoad.classList.toggle("d-none");
+                  btnSend.classList.toggle("d-none");
+                  // show success alert
+                  myAlert.classList.toggle("d-none");
+                  // reset form
+                  form.reset();
+                  console.log("Success!", response);
+               })
+               .catch((error) => console.error("Error!", error.message));
+         });
+      </script>
    </body>
 </html>
